@@ -13,7 +13,8 @@ git commit -m "first commit"
 git branch -M master
 配置远程仓库
 git remote add origin https://github.com/xjxafj/learngit.git
-git push -u origin master
+本地代码推送到远程仓库
+git push -u origin (branchname)
 查询所有分支命令：
 git branch -a
 创建分支命令：
@@ -22,5 +23,14 @@ git branch (branchname)
 git checkout (branchname)
 删除分支命令：
 git branch -d (branchname)
+强制删除分支
+git branch -D branchname
+
+git stash        # 暂存本地的修改
+git fetch --all  # 拉取项目更新
+git pull         # 下载覆盖
+git stash pop    # 释放本地修改
 
 
+远程仓库更新到本地：
+git pull origin (branchname)
