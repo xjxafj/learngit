@@ -1,0 +1,4 @@
+1.打开本地 git bash客户端
+2.使用 ssh-keygen -t rsa 生产本地公钥和私钥
+3.找到本地C:\Users\admin\.ssh\id_rsa.pub 公钥文件
+4.复制公钥内容到远程github ssh配置
