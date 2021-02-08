@@ -1,0 +1,25 @@
+查询所有配置：
+git config --list
+配置:
+git config --global user.email "xjxafj@126.com"
+git config --global user.name "fj"
+
+初始化本地库
+git init
+添加文件到版本库
+git add . 
+提交文件的本地库
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/xjxafj/learngit.git
+git push -u origin main
+查询所有分支命令：
+git branch -a
+创建分支命令：
+git branch (branchname)
+切换分支命令:
+git checkout (branchname)
+删除分支命令：
+git branch -d (branchname)
