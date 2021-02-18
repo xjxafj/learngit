@@ -5,7 +5,7 @@ git config --global user.email "xjxafj@126.com"
 git config --global user.name "fj"
 初始化本地库
 git init
-添加文件到版本库
+添加文件到本地暂存库
 git add . 
 提交文件的本地库
 git commit -m "first commit"
